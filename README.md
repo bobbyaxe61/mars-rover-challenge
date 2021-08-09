@@ -1,4 +1,4 @@
-# Mars Rover in JavaScript
+# Mars Rover In JavaScript
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 
@@ -39,4 +39,4 @@ MMRMMRMRRM
 
 ### Approach
 
-Using Strategy Design Pattern i define a family of algorithms, encapsulated each one of them and made them interchangeable.
+Using Strategy Design Pattern, I defined a family of algorithms, encapsulated each one of them and made them interchangeable.
