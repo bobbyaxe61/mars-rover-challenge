@@ -64,7 +64,9 @@ class App extends React.Component {
                 <div className={`control-panel`}>
                     <div className={'start-position'}>
                         <label htmlFor="startPosition">Start Position (Eg; 00N):</label>
-                        <input type="text"
+                        <input 
+                            data-testid="input-position"
+                            type="text"
                             id="startPosition"
                             maxLength={3}
                             required
@@ -82,18 +84,18 @@ class App extends React.Component {
                         <button data-testid="button-right" value='R' onClick={this.addCommand}>Right</button>
                     </div>
                     <div className='execution'>
-                        <button onClick={this.clear} className='secondary'>✖</button>
+                        <button data-testid="button-clear" onClick={this.clear} className='secondary'>✖</button>
                         <input data-testid="input-path" type="text" readOnly value={this.state.commands}/>
-                        <button className={'cta'} onClick={this.execute}>Execute</button>
+                        <button data-testid="button-execute" className={'cta'} onClick={this.execute}>Execute</button>
                     </div>
                     <div className='samples'>
                         <label>Sample: </label>
                         <ul>
                             <li>
-                                <button value={'LMLMLMLMM'} onClick={this.runSample}>LMLMLMLMM</button>
+                                <button data-testid="button-sample-one" value={'LMLMLMLMM'} onClick={this.runSample}>LMLMLMLMM</button>
                             </li>
                             <li>
-                                <button value={'MMRMMRMRRM'} onClick={this.runSample}>MMRMMRMRRM</button>
+                                <button data-testid="button-sample-two" value={'MMRMMRMRRM'} onClick={this.runSample}>MMRMMRMRRM</button>
                             </li>
                         </ul>
                     </div>
