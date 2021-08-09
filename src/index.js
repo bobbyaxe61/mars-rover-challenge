@@ -100,7 +100,7 @@ class App extends React.Component {
                     </div>
                 </div>
                 <Mars
-                    size={5}
+                    size={6}
                     position={position}
                     commands={this.state.commandsToExecute}
                     execute={this.state.execute}

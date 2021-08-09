@@ -155,12 +155,14 @@ html {
 
 .mars {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 1px;
     grid-row-gap: 1px;
     list-style: none;
     max-width: 350px;
     margin: 40px auto;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0;
 }
 
