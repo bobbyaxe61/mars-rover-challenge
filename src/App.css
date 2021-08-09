@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Signika);
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,7 +60,7 @@ html {
 
 #root {
     font-size: 1em;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Signika', 'Averia Serif Libre';
     background-size: cover;
     text-align: center;
     background-color: #0D1B2A;
@@ -129,7 +131,7 @@ html {
 }
 
 .control-panel button {
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Signika', 'Averia Serif Libre';
     font-size: 1rem;
     background-color: #92140C;
     color: #FFF8F0;
@@ -150,7 +152,7 @@ html {
     color: #E0E1DD;
     font-size: 1rem;
     letter-spacing: 2pt;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Signika', 'Averia Serif Libre';
 }
 
 .mars {

@@ -156,8 +156,6 @@ class Mars extends React.Component {
             }
         }
 
-        console.log(cells);
-
         return (
             <ul className="mars">
                 {cells.map(cell => {
