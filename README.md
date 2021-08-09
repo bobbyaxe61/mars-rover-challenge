@@ -36,3 +36,7 @@ MMRMMRMRRM
 
 13N
 51E
+
+### Approach
+
+Using Strategy Design Pattern i define a family of algorithms, encapsulated each one of them and made them interchangeable.
